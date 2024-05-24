@@ -1,0 +1,72 @@
+#game-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+#myCanvas {
+    margin-top: 50px;
+}
+
+#scoreboard {
+    display: flex;
+    flex-direction: column;
+    gap: 400px;
+    margin-right: 200px;
+}
+
+.scorePlayer {
+    font-size: 30px;
+}
+
+#score1 {
+    color: red;
+}
+
+#score2 {
+    color: blue;
+}
+
+#level {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    background-color: rgb(177, 175, 175);
+    padding: 30px;
+    width: 300px;
+    margin: 200px auto;
+    border-radius: 10px;
+    display: none;
+}
+
+#level button {
+    padding: 10px;
+    border-radius: 10px;
+    width: 100px;
+    background-color: aqua;
+    cursor: pointer;
+}
+
+#start-game {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    width: 200px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 200px auto;
+    padding: 30px;
+    background-color: rgb(177, 175, 175);
+}
+
+#start-game button {
+    padding: 20px;
+    width: 150px;
+    border-radius: 10px;
+    background-color: aqua;
+    cursor: pointer;
+}
